@@ -1,0 +1,150 @@
+*{
+	
+}
+html,body{
+	height: 97%;
+	background: #e6ecf0;
+    color: #14171a;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+	padding: 0px;
+}
+
+#div_izquierdo{
+	width: 50%;
+	background: #1EADFF;
+	height: 100%;
+	float: left;
+	font-size: 20px;
+	display: table;
+}
+
+#div_izquierdo p{
+	color: #FFFFFFFF;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 27% ;
+
+}
+
+#div_parrafo{
+	background-image: url("../imagenes/logo.png"); 
+	background-color: transparent;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100px
+}
+
+p i {
+	padding-right: 15px;
+	font-size: 30px;
+}
+
+#bg_Twiter{
+	font-size: 300px;
+}
+
+#div_derecho{
+	background-color: #FFFFFFFF;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+#div_derecho form{
+	margin-top: 32px;
+	margin-left: 40px;
+}
+
+input{
+	height: 30px;
+	border-radius: 3px;
+	border: 0.5px solid #D4D4D4FF;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+#btn_login{
+	display: inline-block;
+	background: #FFFFFFFF;
+	border-radius: 100px;
+	border: 0.8px solid #058FF5;
+	padding: 6px 16px;
+	color: #058FF5;
+	margin-left: 5px;
+}
+#logo_twitter{
+
+    color: #1DA1F2;
+	margin-left: 150px;
+	font-size: 45px;
+    margin-bottom: 28px; 
+    margin-top: 100px;
+
+}
+#btn_Sesion1{
+	background: #FFFFFFFF;
+	border-radius: 100px;
+	border: 0.8px solid #058FF5;
+	padding: 13px 11px;
+	color: #058FF5;
+	margin-left: 200px;
+}
+#btn_reg{
+ display: inline-block;
+	background: #FFFFFFFF;
+	border-radius: 100px;
+	border: 0.8px solid #058FF5;
+	padding: 6px 16px;
+	color: #058FF5;
+	margin-left: 25px;
+
+}
+#parrafo_in{
+	text-align: justify;
+	font-size: 20;
+	margin-left: 200px;
+}
+footer p{
+	display: inline;
+	width: 100%;
+	background: red;
+	height: 50px;
+	margin-bottom: 0px;
+	clear:both;
+	background-color: #F0F0F0;
+}
+
+
+@media screen and (max-width: 1200px){
+	#div_izquierdo p{
+		margin-left: 17%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	#div_izquierdo p{
+		margin-left: 12%;
+	}
+}
+
+
+@media screen and (max-width: 900px){
+	#div_izquierdo, #div_derecho {
+	clear:both;
+	width: 100%;
+	}
+
+	#div_derecho{
+		height: 400px;
+	}
+
+	#div_izquierdo{
+		height: 250px;
+	}
+
+	#div_izquierdo p{
+		margin-left: 27%;
+	}
+}
